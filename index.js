@@ -10,6 +10,9 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Test our server on the browser
+app.get('/', (req,res)=>res.send({message:'The server is running'}));
+
 // create our webhook endpoint to recive webhooks from Safaricom
 app.post('/dashboard', (req, res) => {
     console.log('-----------Received M-Pesa webhook-----------');
