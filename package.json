@@ -6,8 +6,15 @@
   "author": "github.com/BILLthebuilder",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "prettyjson": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
