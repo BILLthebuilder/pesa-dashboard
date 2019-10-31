@@ -1,0 +1,13 @@
+{
+  "name": "pesa-dashboard",
+  "version": "1.0.0",
+  "description": "A dashboard to log transaction details",
+  "main": "index.js",
+  "author": "github.com/BILLthebuilder",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "prettyjson": "^1.2.1"
+  }
+}
